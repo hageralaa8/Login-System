@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/system.css">
+</head>
+
+<body>
+    <div class="container my-5 ">
+        <div class="group m-auto w-75 p-5 ">
+            <h1>Smart Login System</h1>
+            <input oninput="isValidInputsField(signUpNameRegex,this)" id="signupName" class="form-control my-3" placeholder="Enter your name" type="text" >
+            <p class="text-danger pt-2 d-none ">What's Your Name</p>
+            <input oninput="isValidInputsField(signUpEmailRegex ,this)" id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+            <p class="text-danger pt-2 d-none">couldn't find provoide email address</p>
+            <input oninput="isValidInputsField(signUpPasswordRegex,this)" id="signupPassword" type="password" class="form-control my-3" placeholder="Enter your password">
+            <p class="text-danger pt-2 d-none">Must contain at least 8 or more characters </p>
+            <!--  -->
+            <p id="exist" class="text-danger"></p>
+            <a id="signup" class="btn btn-outline-info w-100 my-3 text-white text-decoration-none">sign up</a>
+            <p class="text-white text-center">You have an account? <a href="./signin.html"
+                    class="text-success text-decoration-none"> signin</a> </p>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/system.js"></script>
+</body>
+
+</html>

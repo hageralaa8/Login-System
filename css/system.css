@@ -1,0 +1,17 @@
+body{
+    background-image: url(./logo.jpg);
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    color: #17a2b8;
+    text-align: center;
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input, textarea {
+    background-color: #f9ebeb   !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+}
